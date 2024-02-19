@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:wght@100..900&display=swap");
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.color-green {
+  color: #1dd100;
+}
+
+.bg-green {
+  background-color: #1dd100;
+}
+
+/* .border {
+    border-top: 2px solid #1dd100;
+    border-top-left-radius: 25px;
+  background: #f7f8f8;
+} */
+
+.border {
+
+  border-top: 5px solid greenyellow;
+  /* border-radius: 25px 25px 0 0; */
+  /* border-top-left-radius: 3px;
+border-top-right-radius: 3px; */
+border-radius: 120px 120px 0px 0px;
+  
+}
+
+.border-bottom {
+
+  border-bottom: 3px solid greenyellow;
+  /* border-radius: 25px 25px 0 0; */
+  /* border-top-left-radius: 3px;
+border-top-right-radius: 3px; */
+border-radius: 0px 0px 20px 20px;
+  
+}
+
+.dashed-line{
+      border-top: 2px dashed #03071233;
+
+}
+.dashed-line-gray{
+      border-top: 2px dashed #FFFFFF4D;
+
+}
+
+
+.appned-li li{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .header-bottom{
+
+  position: absolute;
+  bottom: 40px;
+
+} */
